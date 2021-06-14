@@ -15,6 +15,9 @@ file LICENSE for its full text.
 
 ### Compiling source code
 
+mkdir ~/build | sudo cmake -S ~/pcmanfm-qt -B ~/build
+cd ~/build | sudo make install
+
 Runtime dependencies are qtx11extras, lxmenu-data,
 [liblxqt](https://github.com/lxqt/liblxqt) and
 [libfm-qt](https://github.com/lxqt/libfm-qt).
